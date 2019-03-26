@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private float end_angle;
 
     private int iD_front, iD_back;
-    private int distance = 9000;
+    private int distance = 8000;
     private int i = 1, repeater = 25;
 
     private Boolean proceed = false;
@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
         for(int i=1; i < repeater; i++) {
 
-            initializeFrame1();
             initializeFrame4();
             initializeFrame3();
             initializeFrame2();
+            initializeFrame1();
 
         }
     }
