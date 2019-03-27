@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int iD_front, iD_back;
     private int distance = 8000;
-    private int i = 1, repeater = 25;
+    private repeater = 25;
 
     private Boolean proceed = false;
 
